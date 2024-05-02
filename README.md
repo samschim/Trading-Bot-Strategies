@@ -8,36 +8,36 @@ ___
 
 ## Verfügbare Stragien:
 
--ActionZone
--adaptive
--ADX_15M_USDT
--ADX_15M_USDT2
--adxbbrsi2
--ADXMomentum
--adx_opt_strat
--AdxSmas
--AlligatorStrat
--AlligatorStrategy
--AlwaysBuy
--Apollo11
-A-SDTSRockwellTrading
--AverageStrategy
--AwesomeMacd
--Babico_SMA5xBBmid
--Bandtastic
--BbandRsi
--BbandRsiRolling
--BBands
--BBandsRSI
--bbema
--BBlower
--BBMod1
--BbRoi
--BB_RPB_TSL
--BB_RPB_TSL_2
--BB_RPB_TSL_BI
--BB_RPB_TSL_BIV1
--BB_RPB_TSL_c7c477d_20211030
+- ActionZone
+- adaptive
+- ADX_15M_USDT
+- ADX_15M_USDT2
+- adxbbrsi2
+- ADXMomentum
+- adx_opt_strat
+- AdxSmas
+- AlligatorStrat
+- AlligatorStrategy
+- AlwaysBuy
+- Apollo11
+-  SDTSRockwellTrading
+- AverageStrategy
+- AwesomeMacd
+- Babico_SMA5xBBmid
+- Bandtastic
+- BbandRsi
+- BbandRsiRolling
+- BBands
+- BBandsRSI
+- bbema
+- BBlower
+- BBMod1
+- BbRoi
+- BB_RPB_TSL
+- BB_RPB_TSL_2
+- BB_RPB_TSL_BI
+- BB_RPB_TSL_BIV1
+- BB_RPB_TSL_c7c477d_20211030
 -BB_RPB_TSLmeneguzzo
 -BB_RPB_TSL_RNG
 -BB_RPB_TSL_RNG_2
