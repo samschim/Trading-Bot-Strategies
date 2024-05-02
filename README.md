@@ -8,18 +8,33 @@ ___
 ___
 
 
-## Verfügbare Stragien GETESTET:
-- ActionZone
-- adaptive
-- ADX_15M_USDT
-- ADX_15M_USDT2
-- adxbbrsi2
-- ADXMomentum
+## Stragien GETESTET:
+
+- Test_Strategy_01
+- Test_Strategy_02
+- Test_Strategy_03
+- Test_Strategy_04
+- Test_Strategy_05
+- Test_Strategy_06
+- Test_Strategy_07
+- Test_Strategy_08
+- Test_Strategy_09
+
 
   
 ___
 ___
 
+
+## Stragien GETESTET und Verfügbare:
+
+
+** WILL COME SOON **
+
+
+  
+___
+___
 
 
 ## Verfügbare Stragien UNGETESTET:
