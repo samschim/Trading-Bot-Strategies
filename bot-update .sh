@@ -1,7 +1,7 @@
 Bitte ersetze die Platzhalter SSID und PASSWORD durch die tatsächlichen WLAN-Verbindungsdaten und passe die Befehle zum Aktualisieren des GitHub-Repositorys entsprechend an.
 
 #!/bin/bash
-# Bot Update 
+# Bot Update Script
 
 # Funktion zum Verbinden mit dem WLAN
 verbinde_wlan() {
