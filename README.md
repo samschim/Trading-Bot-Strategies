@@ -4,10 +4,25 @@ ___
 ## Hier werden Freqtrade Strategien, die ausgiebig und erfolgreich im DryRunMode getestet wurden veröffentlicht.
 ### Die Bots von mir sind so konfiguriert, das sie automatisch neue Strategien updaten.
 
+__
+__
+
+
+## Verfügbare Stragien GETESTET:
+- ActionZone
+- adaptive
+- ADX_15M_USDT
+- ADX_15M_USDT2
+- adxbbrsi2
+- ADXMomentum
+
+  
+___
 ___
 
-## Verfügbare Stragien:
 
+
+## Verfügbare Stragien UNGETESTET:
 - ActionZone
 - adaptive
 - ADX_15M_USDT
@@ -38,910 +53,909 @@ ___
 - BB_RPB_TSL_BI
 - BB_RPB_TSL_BIV1
 - BB_RPB_TSL_c7c477d_20211030
--BB_RPB_TSLmeneguzzo
--BB_RPB_TSL_RNG
--BB_RPB_TSL_RNG_2
--BB_RPB_TSL_RNG_TBS
--BB_RPB_TSL_RNG_TBS_GOLD
--BB_RPB_TSL_RNG_VWAP
--BB_RPB_TSL_SMA_Tranz
--BB_RPB_TSL_SMA_Tranz_TB_1_1_1
--BB_RPB_TSL_SMA_Tranz_TB_MOD
--BB_RPB_TSL_Tranz
--BB_RSI
--BBRSI
--bbrsi1_strategy
--BBRSI2
--BBRSI21
--BBRSI3366
--BBRSI4cust
--bbrsi4Freq
--BBRSINaiveStrategy
--BBRSIOptim2020Strategy
--BBRSIOptimizedStrategy
--BBRSIOptimStrategy
--bb_rsi_opt_new
--BBRSIoriginal
--BBRSIS
--BBRSIStrategy
--BBRSITV
--BBRSIv2
--BB_Strategy04
--BcmbigzDevelop
--BcmbigzV1
--bestV2
--BigPete
--BigZ03
--BigZ0307HO
--BigZ03HO
--BigZ04
--BigZ0407
--BigZ0407HO
--BigZ04HO
--BigZ04HO2
--BigZ04_TSL3
--BigZ04_TSL4
--BigZ06
--BigZ07
--BigZ07Next
--BigZ07Next2
--BinClucMad
--BinClucMadDevelop
--BinClucMadSMADevelop
--BinClucMadV1
--BinHV27
--BinHV45
--BinHV45HO
--botbaby
--BreakEven
--BuyAllSellAllStrategy
--BuyOnly
--CBPete9
-Cci
-CCIStrategy
-Chandem
-Chandemtwo
-Chispei
-Cluc4
-Cluc4werk
-Cluc5werk
-Cluc7werk
-ClucFiatROI
-ClucFiatSlow
-ClucHAnix
-ClucHAnix_5m
-ClucHAnix5m
-ClucHAnix_5m1
-ClucHAnix_BB_RPB_MOD
-ClucHAnix_BB_RPB_MOD2_ROI
-ClucHAnix_BB_RPB_MOD_CTT
-ClucHAnix_BB_RPB_MOD_E0V1E_ROI
-ClucHAnix_hhll
-ClucHAwerk
-ClucMay72018
--CMCWinner
--CofiBitStrategy
--CombinedBinHAndCluc
--CombinedBinHAndCluc2021
--CombinedBinHAndCluc2021Bull
--CombinedBinHAndClucHyperV0
--CombinedBinHAndClucHyperV3
--CombinedBinHAndClucV2
--CombinedBinHAndClucV3
--CombinedBinHAndClucV4
--CombinedBinHAndClucV5
--CombinedBinHAndClucV5Hyperoptable
--CombinedBinHAndClucV6
--CombinedBinHAndClucV6H
--CombinedBinHAndClucV7
--CombinedBinHAndClucV8
--CombinedBinHAndClucV8Hyper
--CombinedBinHAndClucV8XH
--CombinedBinHAndClucV8XHO
--CombinedBinHClucAndMADV3
--CombinedBinHClucAndMADV5
--CombinedBinHClucAndMADV6
--CombinedBinHClucAndMADV9
--Combined_Indicators
--Combined_NFIv6_SMA
--Combined_NFIv7_SMA
--Combined_NFIv7_SMA_bAdBoY_20211204
--Combined_NFIv7_SMA_Rallipanos_20210707ActionZone
--adaptive
--ADX_15M_USDT
--ADX_15M_USDT2
--adxbbrsi2
--ADXMomentum
--adx_opt_strat
--AdxSmas
--AlligatorStrat
--AlligatorStrategy
--AlwaysBuy
--Apollo11
--ASDTSRockwellTrading
--AverageStrategy
--AwesomeMacd
--Babico_SMA5xBBmid
--Bandtastic
--BbandRsi
--BbandRsiRolling
--BBands
--BBandsRSI
--bbema
--BBlower
--BBMod1
--BbRoi
--BB_RPB_TSL
--BB_RPB_TSL_2
--BB_RPB_TSL_BI
--BB_RPB_TSL_BIV1
--BB_RPB_TSL_c7c477d_20211030
--BB_RPB_TSLmeneguzzo
--BB_RPB_TSL_RNG
--BB_RPB_TSL_RNG_2
--BB_RPB_TSL_RNG_TBS
--BB_RPB_TSL_RNG_TBS_GOLD
--BB_RPB_TSL_RNG_VWAP
--BB_RPB_TSL_SMA_Tranz
--BB_RPB_TSL_SMA_Tranz_TB_1_1_1
--BB_RPB_TSL_SMA_Tranz_TB_MOD
--BB_RPB_TSL_Tranz
--BB_RSI
--BBRSI
--bbrsi1_strategy
--BBRSI2
--BBRSI21
--BBRSI3366
--BBRSI4cust
--bbrsi4Freq
--BBRSINaiveStrategy
--BBRSIOptim2020Strategy
--BBRSIOptimizedStrategy
--BBRSIOptimStrategy
--bb_rsi_opt_new
--BBRSIoriginal
--BBRSIS
--BBRSIStrategy
--BBRSITV
--BBRSIv2
--BB_Strategy04
--BcmbigzDevelop
--BcmbigzV1
--bestV2
---BigPete
--BigZ03
--BigZ0307HO
--BigZ03HO
--BigZ04
--BigZ0407
--BigZ0407HO
--BigZ04HO
--BigZ04HO2
--BigZ04_TSL3
-BigZ04_TSL4
-BigZ06
-BigZ07
-BigZ07Next
-BigZ07Next2
-BinClucMad
-BinClucMadDevelop
-BinClucMadSMADevelop
-BinClucMadV1
-BinHV27
-BinHV45
-BinHV45HO
-botbaby
-BreakEven
-BuyAllSellAllStrategy
-BuyOnly
-CBPete9
-Cci
-CCIStrategy
-Chandem
-Chandemtwo
-Chispei
-Cluc4
-Cluc4werk
-Cluc5werk
-Cluc7werk
-ClucFiatROI
-ClucFiatSlow
-ClucHAnix
-ClucHAnix_5m
-ClucHAnix5m
-ClucHAnix_5m1
-ClucHAnix_BB_RPB_MOD
-ClucHAnix_BB_RPB_MOD2_ROI
-ClucHAnix_BB_RPB_MOD_CTT
-ClucHAnix_BB_RPB_MOD_E0V1E_ROI
-ClucHAnix_hhll
-ClucHAwerk
-ClucMay72018
-CMCWinner
-CofiBitStrategy
-CombinedBinHAndCluc
-CombinedBinHAndCluc2021
-CombinedBinHAndCluc2021Bull
-CombinedBinHAndClucHyperV0
-CombinedBinHAndClucHyperV3
-CombinedBinHAndClucV2
-CombinedBinHAndClucV3
-CombinedBinHAndClucV4
-CombinedBinHAndClucV5
-CombinedBinHAndClucV5Hyperoptable
-CombinedBinHAndClucV6
-CombinedBinHAndClucV6H
-CombinedBinHAndClucV7
-CombinedBinHAndClucV8
-CombinedBinHAndClucV8Hyper
-CombinedBinHAndClucV8XH
-CombinedBinHAndClucV8XHO
-CombinedBinHClucAndMADV3
-CombinedBinHClucAndMADV5
-CombinedBinHClucAndMADV6
-CombinedBinHClucAndMADV9
-Combined_Indicators
-Combined_NFIv6_SMA
-Combined_NFIv7_SMA
-Combined_NFIv7_SMA_bAdBoY_20211204
-Combined_NFIv7_SMA_Rallipanos_20210707
-conny
-CoreStrategy
-CrossEMAStrategy
-CryptoFrog
-CryptoFrogHO
-CryptoFrogHO2
-CryptoFrogHO2A
-CryptoFrogHO3A1
-CryptoFrogHO3A2
-CryptoFrogHO3A3
-CryptoFrogHO3A4
-CryptoFrogNFI
-CryptoFrogNFIHO1A
-CryptoFrogOffset
-cryptohassle
-custom
-custom_sell
-CustomStoplossWithPSAR
-DCBBBounce
-DD
-DevilStra
-Diamond
-Divergences
-DIV_v1
-Dracula
-Dyna_opti
-e6v34
-EI3v2_tag_cofi_green
-ElliotV2
-ElliotV4
-ElliotV531
-ElliotV5HO
-ElliotV5HOMod2
-ElliotV5HOMod3
-ElliotV7
-Elliotv8
-ElliotV8HO
-ElliotV8_original
-ElliotV8_original_ichiv2
-ElliotV8_original_ichiv3
-ema
-EMA50
-EMA520015_V17
-EMABBRSI
-EMABreakout
-EMA_CROSSOVER_STRATEGY
--EMASkipPump
--EMAVolume
--epretrace
--EXPERIMENTAL_STRATEGY
--fahmibah
--Fakebuy
--FastSupertrend
--FastSupertrendOpt
--FiveMinCrossAbove
--FixedRiskRewardLoss
--flawless_lambo
--ForexSignal
--FRAYSTRAT
--FrostAuraM115mStrategy
---FrostAuraM11hStrategy
--FrostAuraM21hStrategy
--FrostAuraM315mStrategy
--FrostAuraM31hStrategy
--FrostAuraRandomStrategy
--GodCard
--GodStraNew
--GodStraNew40
--GodStraNew_SMAonly
--Guacamole
-G-umbo1
-H-acklemore2
--Hacklemore3
--hansencandlepatternV1
--HansenSmaOffsetV1
-H-armonicDivergence
--heikin
--Heracles
--hlhb
--HourBasedStrategy
--HyperStra_GSN_SMAOnly
--HyperStra_SMAOnly
--Ichess
--Ichi
--Ichimoku
--Ichimoku_SenkouSpanCross
--Ichimoku_v12
--Ichimoku_v30-
-Ichimoku_v31
--Ichimoku_v32
--Ichimoku_v33
--Ichimoku_v37
--ichiV1
--ichiV1_Marius
--InformativeSample
--INSIDEUP
--Inverse
--InverseV2
--JustROCR
--JustROCR3
--JustROCR5
--JustROCR6
--KAMACCIRSI
--Kamaflage
--KC_BB
--keltnerchannel
--Leveraged
--LookaheadStrategy
--Low_BB
--LuxOSC
--mabStra
--MAC
--Macd
--MACDCCI
--MACD_EMA
--macd_recovery
--MACDRSI200
--MACDStrategy
--MACDStrategy_crossed
--MACD_TRI_EMA
--MACD_TRIPLE_MA
--MacheteV8b
--MacheteV8bRallimod2
--MADisplaceV3
--MarketChyperHyperStrategy
--mark_strat
--mark_strat_opt
--Maro4hMacdSd
--Martin
--MFI
--MiniLambo
--Minmax
--Momentumv2
--MomStrategy
--MontrealStrategy
--MostOfAll
--MultiMa
--MultiMA_TSL
--MultiMA_TSL3
--MultiMA_TSL3_Mod
--MultiOffsetLamboV0
--MultiRSI
--NASOSRv6_private_Reinuvader_20211121
--NASOSv4
--NASOSv5
--NASOSv5_mod1
--NASOSv5_mod1_DanMod
--NASOSv5_mod2
--NASOSv5_mod3
--NFI46
--NFI46Frog
--NFI46FrogZ
--NFI46Offset
--NFI46OffsetHOA1
--NFI46Z
--NFI47V2
--NFI4Frog
--NFI5MOHO
--NFI5MOHO2
--NFI5MOHO_WIP
--NFI5MOHO_WIP_1
--NFI5MOHO_WIP_2
--NFI731_BUSD
--NFI7MOHO
--NfiNextModded
--NFINextMOHO
--NFINextMOHO2
--NFINextMultiOffsetAndHO
--NFINextMultiOffsetAndHO2
--NFIX_BB_RPB
--NFIX_BB_RPB_c7c477d_20211030
--NormalizerStrategy
--NormalizerStrategyHO2
--Nostalgia
--NostalgiaForInfinityNext
--NostalgiaForInfinityNext_ChangeToTower_V5_2
--NostalgiaForInfinityNext_ChangeToTower_V5_3
--NostalgiaForInfinityNext_ChangeToTower_V6
--NostalgiaForInfinityNextGen
--NostalgiaForInfinityNextGen_TSL
--NostalgiaForInfinityNext_maximizer
--NostalgiaForInfinityNextV7155
--NostalgiaForInfinityV1
--NostalgiaForInfinityV2
--NostalgiaForInfinityV3
--NostalgiaForInfinityV4
--NostalgiaForInfinityV4HO
--NostalgiaForInfinityV5
--NostalgiaForInfinityV5MultiOffsetAndHO
--NostalgiaForInfinityV5MultiOffsetAndHO2
--NostalgiaForInfinityV6
--NostalgiaForInfinityV6HO
--NostalgiaForInfinityV7
--NostalgiaForInfinityV7_7_2
--NostalgiaForInfinityV7_SMA
--NostalgiaForInfinityV7_SMAv2
--NostalgiaForInfinityV7_SMAv2_1
--NostalgiaForInfinityX
--NostalgiaForInfinityX2
--NostalgiaForInfinityXw
--NotAnotherSMAOffsetStrategy
--NotAnotherSMAOffsetStrategyHO
--NotAnotherSMAOffsetStrategyHOv3
--NotAnotherSMAOffsetStrategyLite
--NotAnotherSMAOffsetStrategyModHO
--NotAnotherSMAOffsetStrategyModHO_LamineDz_20210901
--NotAnotherSMAOffsetStrategy_uzi
--NotAnotherSMAOffsetStrategy_uzi3
--NotAnotherSMAOffSetStrategy_V2
--NotAnotherSMAOffsetStrategyX1
--NowoIchimoku1hV1
--NowoIchimoku1hV2
--NowoIchimoku5mV2
--Obelisk_3EMA_StochRSI_ATR
--Obelisk_Ichimoku_Slow_v1_3
--Obelisk_Ichimoku_ZEMA_v1
--ObeliskIM_v1_1
--ObeliskRSI_v6_1
--Obelisk_TradePro_Ichi_v1_1
--Obelisk_TradePro_Ichi_v2_1
--ONUR
--Persia
--PrawnstarOBV
--PRICEFOLLOWING
--PRICEFOLLOWING2
--PRICEFOLLOWINGX
--PumpDetector
--__pycache__
--quantumfirst
--Quickie
--RalliV1
--RalliV1_disable56
--RaposaDivergenceV1
--redditMA
--ReinforcedAverageStrategy
--ReinforcedQuickie
--ReinforcedSmoothScalp
--Renko
--RobotradingBody
--Roth01
--Roth03
--RSI
--RSIBB02
--RSIv2
--SampleStrategy
--sample_strategy.py
--SampleStrategyV2
--SAR
--Saturn5
--Scalp
--Schism
--Schism2
--Schism2MM
--Schism3
--Schism4
--Schism5
--Schism6
--Seb
--Simple
--Slowbro
--SlowPotato
--SMA_BBRSI
--SMAIP3
--SMAIP3v2
--SMAOffset
--SMAOffsetProtectOpt
--SMAOffsetProtectOptV0
--SMAOffsetProtectOptV1
--SMAOffsetProtectOptV1HO1
--SMAOffsetProtectOptV1_kkeue_20210619
--SMAOffsetProtectOptV1Mod
--SMAOffsetProtectOptV1Mod2
--SMAOffsetV2
--SMAOG
--SMAOPv1_TTF
--SmaRsiStrategy.py
--SmoothOperator
--SmoothScalp
--SolanaStrategy.py
--SRsi
--Stavix2
--Stinkfist
--StochRSITEMA
--stoploss
--Strategy001
--Strategy001_custom_sell
--Strategy002
--Strategy003
--Strategy004
--Strategy005
--STRATEGY_RSI_BB_BOUNDS_CROSS
--STRATEGY_RSI_BB_CROSS
--StrategyScalpingFast
--StrategyScalpingFast2
--stratfib
--strato
--SuperHV27
--SuperTrend
--SuperTrendPure
--SupertrendStrategy
--SwingHigh
--SwingHighToSky
--TDSequentialStrategy
--TechnicalExampleStrategy
--TEMA
--TemaMaster
--TemaMaster3
--TemaPure
--TemaPureNeat
--TemaPureTwo
--TenderEnter
--test-strategy
--TheForce
--TheRealPullbackV2
--TrailingBuyStrat2
--Trend_Strength_Directional
--TrixStrategy
--TrixV15Strategy
--TrixV21Strategy
--TrixV23Strategy
--true_lambo
--UltimateMomentumIndicator
--Uptrend
--UziChan
--UziChan2
--VWAP
--WaveTrendStra
--wtc
--XebTradeStrat
--XtraThicc
--YOLO
--conny
--CoreStrategy
--CrossEMAStrategy
--CryptoFrog
--CryptoFrogHO
--CryptoFrogHO2
--CryptoFrogHO2A
--CryptoFrogHO3A1
--CryptoFrogHO3A2
--CryptoFrogHO3A3
--CryptoFrogHO3A4
--CryptoFrogNFI
--CryptoFrogNFIHO1A
--CryptoFrogOffset
--cryptohassle
--custom
--custom_sell
--CustomStoplossWithPSAR
--DCBBBounce
--DD
--DevilStra
--Diamond
--Divergences
--DIV_v1
--Dracula
--Dyna_opti
--e6v34
--EI3v2_tag_cofi_green
--ElliotV2
--ElliotV4
--ElliotV531
--ElliotV5HO
--ElliotV5HOMod2
--ElliotV5HOMod3
--ElliotV7
--Elliotv8
--ElliotV8HO
--ElliotV8_original
--ElliotV8_original_ichiv2
--ElliotV8_original_ichiv3
--ema
--EMA50
--EMA520015_V17
--EMABBRSI
--EMABreakout
--EMA_CROSSOVER_STRATEGY
--EMASkipPump
--EMAVolume
--epretrace
--EXPERIMENTAL_STRATEGY
--fahmibah
--Fakebuy
--FastSupertrend
--FastSupertrendOpt
--FiveMinCrossAbove
--FixedRiskRewardLoss
--flawless_lambo
--ForexSignal
--FRAYSTRAT
--FrostAuraM115mStrategy
--FrostAuraM11hStrategy
--FrostAuraM21hStrategy
--FrostAuraM315mStrategy
--FrostAuraM31hStrategy
--FrostAuraRandomStrategy
--GodCard
--GodStraNew
--GodStraNew40
--GodStraNew_SMAonly
--Guacamole
--Gumbo1
--Hacklemore2
--Hacklemore3
--hansencandlepatternV1
--HansenSmaOffsetV1
--HarmonicDivergence
--heikin
--Heracles
--hlhb
--HourBasedStrategy
--HyperStra_GSN_SMAOnly
--HyperStra_SMAOnly
--Ichess
--Ichi
--Ichimoku
--Ichimoku_SenkouSpanCross
--Ichimoku_v12
--Ichimoku_v30
--Ichimoku_v31
--Ichimoku_v32
--Ichimoku_v33
--Ichimoku_v37
--ichiV1
--ichiV1_Marius
--InformativeSample
--INSIDEUP
--Inverse
--InverseV2
--JustROCR
--JustROCR3
--JustROCR5
--JustROCR6
--KAMACCIRSI
--Kamaflage
--KC_BB
--keltnerchannel
--Leveraged
--LookaheadStrategy
--Low_BB
--LuxOSC
--mabStra
--MAC
--Macd
--MACDCCI
--MACD_EMA
--macd_recovery
--MACDRSI200
--MACDStrategy
--MACDStrategy_crossed
--MACD_TRI_EMA
--MACD_TRIPLE_MA
--MacheteV8b
--MacheteV8bRallimod2
--MADisplaceV3
--MarketChyperHyperStrategy
--mark_strat
--mark_strat_opt
--Maro4hMacdSd
--Martin
--MFI
--MiniLambo
--Minmax
--Momentumv2
--MomStrategy
--MontrealStrategy
--MostOfAll
--MultiMa
--MultiMA_TSL
--MultiMA_TSL3
--MultiMA_TSL3_Mod
--MultiOffsetLamboV0
--MultiRSI
--NASOSRv6_private_Reinuvader_20211121
--NASOSv4
--NASOSv5
--NASOSv5_mod1
--NASOSv5_mod1_DanMod
--NASOSv5_mod2
--NASOSv5_mod3
--NFI46
--NFI46Frog
--NFI46FrogZ
--NFI46Offset
--NFI46OffsetHOA1
--NFI46Z
--NFI47V2
--NFI4Frog
--NFI5MOHO
--NFI5MOHO2
--NFI5MOHO_WIP
--NFI5MOHO_WIP_1
--NFI5MOHO_WIP_2
--NFI731_BUSD
--NFI7MOHO
--NfiNextModded
--NFINextMOHO
--NFINextMOHO2
--NFINextMultiOffsetAndHO
--NFINextMultiOffsetAndHO2NFIX_BB_RPB
--NFIX_BB_RPB_c7c477d_20211030
--NormalizerStrategy
--NormalizerStrategyHO2
--Nostalgia
--NostalgiaForInfinityNext
--NostalgiaForInfinityNext_ChangeToTower_V5_2
--NostalgiaForInfinityNext_ChangeToTower_V5_3
--NostalgiaForInfinityNext_ChangeToTower_V6
--NostalgiaForInfinityNextGen
--NostalgiaForInfinityNextGen_TSL
--NostalgiaForInfinityNext_maximizer
--NostalgiaForInfinityNextV7155
--NostalgiaForInfinityV1
--NostalgiaForInfinityV2
--NostalgiaForInfinityV3
--NostalgiaForInfinityV4
--NostalgiaForInfinityV4HO
--NostalgiaForInfinityV5
--NostalgiaForInfinityV5MultiOffsetAndHO
--NostalgiaForInfinityV5MultiOffsetAndHO2
--NostalgiaForInfinityV6
--NostalgiaForInfinityV6HO
--NostalgiaForInfinityV7
--NostalgiaForInfinityV7_7_2
--NostalgiaForInfinityV7_SMA
--NostalgiaForInfinityV7_SMAv2
--NostalgiaForInfinityV7_SMAv2_1
--NostalgiaForInfinityX
--NostalgiaForInfinityX2
--NostalgiaForInfinityXw
--NotAnotherSMAOffsetStrategy
--NotAnotherSMAOffsetStrategyHO
--NotAnotherSMAOffsetStrategyHOv3
--NotAnotherSMAOffsetStrategyLite
--NotAnotherSMAOffsetStrategyModHO
--NotAnotherSMAOffsetStrategyModHO_LamineDz_20210901
--NotAnotherSMAOffsetStrategy_uzi
--NotAnotherSMAOffsetStrategy_uzi3
--NotAnotherSMAOffSetStrategy_V2
--NotAnotherSMAOffsetStrategyX1-
--NowoIchimoku1hV1
--NowoIchimoku1hV2
--NowoIchimoku5mV2
--Obelisk_3EMA_StochRSI_ATR
-.Obelisk_Ichimoku_Slow_v1_3
--Obelisk_Ichimoku_ZEMA_v1
--ObeliskIM_v1_1
--ObeliskRSI_v6_1
--Obelisk_TradePro_Ichi_v1_1
--Obelisk_TradePro_Ichi_v2_1
--ONUR
--Persia
--PrawnstarOBV
--PRICEFOLLOWING
--PRICEFOLLOWING2
--PRICEFOLLOWINGX
--PumpDetector
--quantumfirst
--Quickie
--RalliV1
--RalliV1_disable56
--RaposaDivergenceV1
--redditMA
--ReinforcedAverageStrategy
--ReinforcedQuickie
--ReinforcedSmoothScalp
--Renko
--RobotradingBody
--Roth01
--Roth03
--RSI
--RSIBB02
--RSIv2
--SampleStrategy
--sample_strategy.py
--SampleStrategyV2
--SAR
--Saturn5
--Scalp
--Schism
--Schism2
--Schism2MM
--Schism3
--Schism4
--Schism5
--Schism6
--Seb
--Simple
-S-lowbro
-S--lowPotato
--SMA_BBRSI
--SMAIP3
--SMAIP3v2
--SMAOffset
--SMAOffsetProtectOpt
--SMAOffsetProtectOptV0
--SMAOffsetProtectOptV1
--SMAOffsetProtectOptV1HO1
--SMAOffsetProtectOptV1_kkeue_20210619
--SMAOffsetProtectOptV1Mod
--SMAOffsetProtectOptV1Mod2
--SMAOffsetV2
--SMAOG
--SMAOPv1_TTF
--SmaRsiStrategy.py
--SmoothOperator
--SmoothScalp
--SolanaStrategy.py
--SRsi
--Stavix2
--Stinkfist
--StochRSITEMA
--stoploss
--Strategy001
--Strategy001_custom_sell
--Strategy002
--Strategy003
--Strategy004
--Strategy005
--STRATEGY_RSI_BB_BOUNDS_CROSS
--STRATEGY_RSI_BB_CROSS
--StrategyScalpingFast
--StrategyScalpingFast2
--stratfib
--strato
--SuperHV27
--SuperTrend
--SuperTrendPure
--SupertrendStrategy
--SwingHigh
--SwingHighToSky
--TDSequentialStrategy
--TechnicalExampleStrategy
--TEMA
--TemaMaster
--TemaMaster3
--TemaPure
--TemaPureNeat
--TemaPureTwo
--TenderEnter
--test-strategy
--TheForce
--TheRealPullbackV2
--TrailingBuyStrat2
--Trend_Strength_Directional
--TrixStrategy
--TrixV15Strategy
--TrixV21Strategy
--TrixV23Strategy
--true_lambo
--UltimateMomentumIndicator
--Uptrend
--UziChan
--UziChan2
--VWAP
--WaveTrendStra
--wtc
--XebTradeStrat
--XtraThicc
--YOLO
+- BB_RPB_TSLmeneguzzo
+- BB_RPB_TSL_RNG
+- BB_RPB_TSL_RNG_2
+- BB_RPB_TSL_RNG_TBS
+- BB_RPB_TSL_RNG_TBS_GOLD
+- BB_RPB_TSL_RNG_VWAP
+- BB_RPB_TSL_SMA_Tranz
+- BB_RPB_TSL_SMA_Tranz_TB_1_1_1
+- BB_RPB_TSL_SMA_Tranz_TB_MOD
+- BB_RPB_TSL_Tranz
+- BB_RSI
+- BBRSI
+- bbrsi1_strategy
+- BBRSI2
+- BBRSI21
+- BBRSI3366
+- BBRSI4cust
+- bbrsi4Freq
+- BBRSINaiveStrategy
+- BBRSIOptim2020Strategy
+- BBRSIOptimizedStrategy
+- BBRSIOptimStrategy
+- bb_rsi_opt_new
+- BBRSIoriginal
+- BBRSIS
+- BBRSIStrategy
+- BBRSITV
+- BBRSIv2
+- BB_Strategy04
+- BcmbigzDevelop
+- BcmbigzV1
+- bestV2
+- BigPete
+- BigZ03
+- BigZ0307HO
+- BigZ03HO
+- BigZ04
+- BigZ0407
+- BigZ0407HO
+- BigZ04HO
+- BigZ04HO2
+- BigZ04_TSL3
+- BigZ04_TSL4
+- BigZ06
+- BigZ07
+- BigZ07Next
+- BigZ07Next2
+- BinClucMad
+- BinClucMadDevelop
+- BinClucMadSMADevelop
+- BinClucMadV1
+- BinHV27
+- BinHV45
+- BinHV45HO
+- botbaby
+- BreakEven
+- BuyAllSellAllStrategy
+- BuyOnly
+- CBPete9
+- Cci
+- CCIStrategy
+- Chandem
+- Chandemtwo
+- Chispei
+- Cluc4
+- Cluc4werk
+- Cluc5werk
+- Cluc7werk
+- ClucFiatROI
+- ClucFiatSlow
+- ClucHAnix
+- ClucHAnix_5m
+- ClucHAnix5m
+- ClucHAnix_5m1
+- ClucHAnix_BB_RPB_MOD
+- ClucHAnix_BB_RPB_MOD2_ROI
+- ClucHAnix_BB_RPB_MOD_CTT
+- ClucHAnix_BB_RPB_MOD_E0V1E_ROI
+- ClucHAnix_hhll
+- ClucHAwerk
+- ClucMay72018
+- CMCWinner
+- CofiBitStrategy
+- CombinedBinHAndCluc
+- CombinedBinHAndCluc2021
+- CombinedBinHAndCluc2021Bull
+- CombinedBinHAndClucHyperV0
+- CombinedBinHAndClucHyperV3
+- CombinedBinHAndClucV2
+- CombinedBinHAndClucV3
+- CombinedBinHAndClucV4
+- CombinedBinHAndClucV5
+- CombinedBinHAndClucV5Hyperoptable
+- CombinedBinHAndClucV6
+- CombinedBinHAndClucV6H
+- CombinedBinHAndClucV7
+- CombinedBinHAndClucV8
+- CombinedBinHAndClucV8Hyper
+- CombinedBinHAndClucV8XH
+- CombinedBinHAndClucV8XHO
+- CombinedBinHClucAndMADV3
+- CombinedBinHClucAndMADV5
+- CombinedBinHClucAndMADV6
+- CombinedBinHClucAndMADV9
+- Combined_Indicators
+- Combined_NFIv6_SMA
+- Combined_NFIv7_SMA
+- Combined_NFIv7_SMA_bAdBoY_20211204
+- Combined_NFIv7_SMA_Rallipanos_20210707ActionZone
+- adaptive
+- ADX_15M_USDT
+- ADX_15M_USDT2
+- adxbbrsi2
+- ADXMomentum
+- adx_opt_strat
+- AdxSmas
+- AlligatorStrat
+- AlligatorStrategy
+- AlwaysBuy
+- Apollo11
+- ASDTSRockwellTrading
+- AverageStrategy
+- AwesomeMacd
+- Babico_SMA5xBBmid
+- Bandtastic
+- BbandRsi
+- BbandRsiRolling
+- BBands
+- BBandsRSI
+- bbema
+- BBlower
+- BBMod1
+- BbRoi
+- BB_RPB_TSL
+- BB_RPB_TSL_2
+- BB_RPB_TSL_BI
+- BB_RPB_TSL_BIV1
+- BB_RPB_TSL_c7c477d_20211030
+- BB_RPB_TSLmeneguzzo
+- BB_RPB_TSL_RNG
+- BB_RPB_TSL_RNG_2
+- BB_RPB_TSL_RNG_TBS
+- BB_RPB_TSL_RNG_TBS_GOLD
+- BB_RPB_TSL_RNG_VWAP
+- BB_RPB_TSL_SMA_Tranz
+- BB_RPB_TSL_SMA_Tranz_TB_1_1_1
+- BB_RPB_TSL_SMA_Tranz_TB_MOD
+- BB_RPB_TSL_Tranz
+- BB_RSI
+- BBRSI
+- bbrsi1_strategy
+- BBRSI2
+- BBRSI21
+- BBRSI3366
+- BBRSI4cust
+- bbrsi4Freq
+- BBRSINaiveStrategy
+- BBRSIOptim2020Strategy
+- BBRSIOptimizedStrategy
+- BBRSIOptimStrategy
+- bb_rsi_opt_new
+- BBRSIoriginal
+- BBRSIS
+- BBRSIStrategy
+- BBRSITV
+- BBRSIv2
+- BB_Strategy04
+- BcmbigzDevelop
+- BcmbigzV1
+- bestV2
+- BigPete
+- BigZ03
+- BigZ0307HO
+- BigZ03HO
+- BigZ04
+- BigZ0407
+- BigZ0407HO
+- BigZ04HO
+- BigZ04HO2
+- BigZ04_TSL3
+- BigZ04_TSL4
+- BigZ06
+- BigZ07
+- BigZ07Next
+- BigZ07Next2
+- BinClucMad
+- BinClucMadDevelop
+- BinClucMadSMADevelop
+- BinClucMadV1
+- BinHV27
+- BinHV45
+- BinHV45HO
+- botbaby
+- BreakEven
+- BuyAllSellAllStrategy
+- BuyOnly
+- CBPete9
+- Cci
+- CCIStrategy
+- Chandem
+- Chandemtwo
+- Chispei
+- Cluc4
+- Cluc4werk
+- Cluc5werk
+- Cluc7werk
+- ClucFiatROI
+- ClucFiatSlow
+- ClucHAnix
+- ClucHAnix_5m
+- ClucHAnix5m
+- ClucHAnix_5m1
+- ClucHAnix_BB_RPB_MOD
+- ClucHAnix_BB_RPB_MOD2_ROI
+- ClucHAnix_BB_RPB_MOD_CTT
+- ClucHAnix_BB_RPB_MOD_E0V1E_ROI
+- ClucHAnix_hhll
+- ClucHAwerk
+- ClucMay72018
+- CMCWinner
+- CofiBitStrategy
+- CombinedBinHAndCluc
+- CombinedBinHAndCluc2021
+- CombinedBinHAndCluc2021Bull
+- CombinedBinHAndClucHyperV0
+- CombinedBinHAndClucHyperV3
+- CombinedBinHAndClucV2
+- CombinedBinHAndClucV3
+- CombinedBinHAndClucV4
+- CombinedBinHAndClucV5
+- CombinedBinHAndClucV5Hyperoptable
+- CombinedBinHAndClucV6
+- CombinedBinHAndClucV6H
+- CombinedBinHAndClucV7
+- CombinedBinHAndClucV8
+- CombinedBinHAndClucV8Hyper
+- CombinedBinHAndClucV8XH
+- CombinedBinHAndClucV8XHO
+- CombinedBinHClucAndMADV3
+- CombinedBinHClucAndMADV5
+- CombinedBinHClucAndMADV6
+- CombinedBinHClucAndMADV9
+- Combined_Indicators
+- Combined_NFIv6_SMA
+- Combined_NFIv7_SMA
+- Combined_NFIv7_SMA_bAdBoY_20211204
+- Combined_NFIv7_SMA_Rallipanos_20210707
+- conny
+- CoreStrategy
+- CrossEMAStrategy
+- CryptoFrog
+- CryptoFrogHO
+- CryptoFrogHO2
+- CryptoFrogHO2A
+- CryptoFrogHO3A1
+- CryptoFrogHO3A2
+- CryptoFrogHO3A3
+- CryptoFrogHO3A4
+- CryptoFrogNFI
+- CryptoFrogNFIHO1A
+- CryptoFrogOffset
+- cryptohassle
+- custom
+- custom_sell
+- CustomStoplossWithPSAR
+- DCBBBounce
+- DD
+- DevilStra
+- Diamond
+- Divergences
+- DIV_v1
+- Dracula
+- Dyna_opti
+- e6v34
+- EI3v2_tag_cofi_green
+- ElliotV2
+- ElliotV4
+- ElliotV531
+- ElliotV5HO
+- ElliotV5HOMod2
+- ElliotV5HOMod3
+- ElliotV7
+- Elliotv8
+- ElliotV8HO
+- ElliotV8_original
+- ElliotV8_original_ichiv2
+- ElliotV8_original_ichiv3
+- ema
+- EMA50
+- EMA520015_V17
+- EMABBRSI
+- EMABreakout
+- EMA_CROSSOVER_STRATEGY
+- EMASkipPump
+- EMAVolume
+- epretrace
+- EXPERIMENTAL_STRATEGY
+- fahmibah
+- Fakebuy
+- FastSupertrend
+- FastSupertrendOpt
+- FiveMinCrossAbove
+- FixedRiskRewardLoss
+- flawless_lambo
+- ForexSignal
+- FRAYSTRAT
+- FrostAuraM115mStrategy
+- FrostAuraM11hStrategy
+- FrostAuraM21hStrategy
+- FrostAuraM315mStrategy
+- FrostAuraM31hStrategy
+- FrostAuraRandomStrategy
+- GodCard
+- GodStraNew
+- GodStraNew40
+- GodStraNew_SMAonly
+- Guacamole
+- G-umbo1
+- hacklemore2
+- Hacklemore3
+- hansencandlepatternV1
+- HansenSmaOffsetV1
+-  HarmonicDivergence
+- heikin
+- Heracles
+- hlhb
+- HourBasedStrategy
+- HyperStra_GSN_SMAOnly
+- HyperStra_SMAOnly
+- Ichess
+- Ichi
+- Ichimoku
+- Ichimoku_SenkouSpanCross
+- Ichimoku_v12
+- Ichimoku_v30-
+- ichimoku_v31
+- Ichimoku_v32
+- Ichimoku_v33
+- Ichimoku_v37
+- ichiV1
+- ichiV1_Marius
+- InformativeSample
+- INSIDEUP
+- Inverse
+- InverseV2
+- JustROCR
+- JustROCR3
+- JustROCR5
+- JustROCR6
+- KAMACCIRSI
+- Kamaflage
+- KC_BB
+- keltnerchannel
+- Leveraged
+- LookaheadStrategy
+- Low_BB
+- LuxOSC
+- mabStra
+- MAC
+- Macd
+- MACDCCI
+- MACD_EMA
+- macd_recovery
+- MACDRSI200
+- MACDStrategy
+- MACDStrategy_crossed
+- MACD_TRI_EMA
+- MACD_TRIPLE_MA
+- MacheteV8b
+- MacheteV8bRallimod2
+- MADisplaceV3
+- MarketChyperHyperStrategy
+- mark_strat
+- mark_strat_opt
+- Maro4hMacdSd
+- Martin
+- MFI
+- MiniLambo
+- Minmax
+- Momentumv2
+- MomStrategy
+- MontrealStrategy
+- MostOfAll
+- MultiMa
+- MultiMA_TSL
+- MultiMA_TSL3
+- MultiMA_TSL3_Mod
+- MultiOffsetLamboV0
+- MultiRSI
+- NASOSRv6_private_Reinuvader_20211121
+- NASOSv4
+- NASOSv5
+- NASOSv5_mod1
+- NASOSv5_mod1_DanMod
+- NASOSv5_mod2
+- NASOSv5_mod3
+- NFI46
+- NFI46Frog
+- NFI46FrogZ
+- NFI46Offset
+- NFI46OffsetHOA1
+- NFI46Z
+- NFI47V2
+- NFI4Frog
+- NFI5MOHO
+- NFI5MOHO2
+- NFI5MOHO_WIP
+- NFI5MOHO_WIP_1
+- NFI5MOHO_WIP_2
+- NFI731_BUSD
+- NFI7MOHO
+- NfiNextModded
+- NFINextMOHO
+- NFINextMOHO2
+- NFINextMultiOffsetAndHO
+- NFINextMultiOffsetAndHO2
+- NFIX_BB_RPB
+- NFIX_BB_RPB_c7c477d_20211030
+- NormalizerStrategy
+- NormalizerStrategyHO2
+- Nostalgia
+- NostalgiaForInfinityNext
+- NostalgiaForInfinityNext_ChangeToTower_V5_2
+- NostalgiaForInfinityNext_ChangeToTower_V5_3
+- NostalgiaForInfinityNext_ChangeToTower_V6
+- NostalgiaForInfinityNextGen
+- NostalgiaForInfinityNextGen_TSL
+- NostalgiaForInfinityNext_maximizer
+- NostalgiaForInfinityNextV7155
+- NostalgiaForInfinityV1
+- NostalgiaForInfinityV2
+- NostalgiaForInfinityV3
+- NostalgiaForInfinityV4
+- NostalgiaForInfinityV4HO
+- NostalgiaForInfinityV5
+- NostalgiaForInfinityV5MultiOffsetAndHO
+- NostalgiaForInfinityV5MultiOffsetAndHO2
+- NostalgiaForInfinityV6
+- NostalgiaForInfinityV6HO
+- NostalgiaForInfinityV7
+- NostalgiaForInfinityV7_7_2
+- NostalgiaForInfinityV7_SMA
+- NostalgiaForInfinityV7_SMAv2
+- NostalgiaForInfinityV7_SMAv2_1
+- NostalgiaForInfinityX
+- NostalgiaForInfinityX2
+- NostalgiaForInfinityXw
+- NotAnotherSMAOffsetStrategy
+- NotAnotherSMAOffsetStrategyHO
+- NotAnotherSMAOffsetStrategyHOv3
+- NotAnotherSMAOffsetStrategyLite
+- NotAnotherSMAOffsetStrategyModHO
+- NotAnotherSMAOffsetStrategyModHO_LamineDz_20210901
+- NotAnotherSMAOffsetStrategy_uzi
+- NotAnotherSMAOffsetStrategy_uzi3
+- NotAnotherSMAOffSetStrategy_V2
+- NotAnotherSMAOffsetStrategyX1
+- NowoIchimoku1hV1
+- NowoIchimoku1hV2
+- NowoIchimoku5mV2
+- Obelisk_3EMA_StochRSI_ATR
+- Obelisk_Ichimoku_Slow_v1_3
+- Obelisk_Ichimoku_ZEMA_v1
+- ObeliskIM_v1_1
+- ObeliskRSI_v6_1
+- Obelisk_TradePro_Ichi_v1_1
+- Obelisk_TradePro_Ichi_v2_1
+- ONUR
+- Persia
+- PrawnstarOBV
+- PRICEFOLLOWING
+- PRICEFOLLOWING2
+- PRICEFOLLOWINGX
+- PumpDetector
+- quantumfirst
+- Quickie
+- RalliV1
+- RalliV1_disable56
+- RaposaDivergenceV1
+- redditMA
+- ReinforcedAverageStrategy
+- ReinforcedQuickie
+- ReinforcedSmoothScalp
+- Renko
+- RobotradingBody
+- Roth01
+- Roth03
+- RSI
+- RSIBB02
+- RSIv2
+- SampleStrategy
+- sample_strategy.py
+- SampleStrategyV2
+- SAR
+- Saturn5
+- Scalp
+- Schism
+- Schism2
+- Schism2MM
+- Schism3
+- Schism4
+- Schism5
+- Schism6
+- Seb
+- Simple
+- Slowbro
+- SlowPotato
+- SMA_BBRSI
+- SMAIP3
+- SMAIP3v2
+- SMAOffset
+- SMAOffsetProtectOpt
+- SMAOffsetProtectOptV0
+- SMAOffsetProtectOptV1
+- SMAOffsetProtectOptV1HO1
+- SMAOffsetProtectOptV1_kkeue_20210619
+- SMAOffsetProtectOptV1Mod
+- SMAOffsetProtectOptV1Mod2
+- SMAOffsetV2
+- SMAOG
+- SMAOPv1_TTF
+- SmaRsiStrategy.py
+- SmoothOperator
+- SmoothScalp
+- SolanaStrategy.py
+- SRsi
+- Stavix2
+- Stinkfist
+- StochRSITEMA
+- stoploss
+- Strategy001
+- Strategy001_custom_sell
+- Strategy002
+- Strategy003
+- Strategy004
+- Strategy005
+- STRATEGY_RSI_BB_BOUNDS_CROSS
+- STRATEGY_RSI_BB_CROSS
+- StrategyScalpingFast
+- StrategyScalpingFast2
+- stratfib
+- strato
+- SuperHV27
+- SuperTrend
+- SuperTrendPure
+- SupertrendStrategy
+- SwingHigh
+- SwingHighToSky
+- TDSequentialStrategy
+- TechnicalExampleStrategy
+- TEMA
+- TemaMaster
+- TemaMaster3
+- TemaPure
+- TemaPureNeat
+- TemaPureTwo 
+- TenderEnter
+- test-strategy
+- TheForce
+- TheRealPullbackV2
+- TrailingBuyStrat2
+- Trend_Strength_Directional
+- TrixStrategy
+- TrixV15Strategy
+- TrixV21Strategy
+- TrixV23Strategy
+- true_lambo
+- UltimateMomentumIndicator
+- Uptrend
+- UziChan
+- UziChan2
+- VWAP
+- WaveTrendStra
+- wtc
+- XebTradeStrat
+- XtraThicc
+- YOLO
+- conny
+- CoreStrategy
+- CrossEMAStrategy
+- CryptoFrog
+- CryptoFrogHO
+- CryptoFrogHO2
+- CryptoFrogHO2A
+- CryptoFrogHO3A1
+- CryptoFrogHO3A2
+- CryptoFrogHO3A3
+- CryptoFrogHO3A4
+- CryptoFrogNFI
+- CryptoFrogNFIHO1A
+- CryptoFrogOffset
+- cryptohassle
+- custom
+- custom_sell
+- CustomStoplossWithPSAR
+- DCBBBounce
+- DD
+- DevilStra
+- Diamond
+- Divergences
+- DIV_v1
+- Dracula
+- Dyna_opti
+- e6v34
+- EI3v2_tag_cofi_green
+- ElliotV2
+- ElliotV4
+- ElliotV531
+- ElliotV5HO
+- ElliotV5HOMod2
+- ElliotV5HOMod3
+- ElliotV7
+- Elliotv8
+- ElliotV8HO
+- ElliotV8_original
+- ElliotV8_original_ichiv2
+- ElliotV8_original_ichiv3
+- ema
+- EMA50
+- EMA520015_V17
+- EMABBRSI
+- EMABreakout
+- EMA_CROSSOVER_STRATEGY
+- EMASkipPump
+- EMAVolume
+- epretrace
+- EXPERIMENTAL_STRATEGY
+- fahmibah
+- Fakebuy
+- FastSupertrend
+- FastSupertrendOpt
+- FiveMinCrossAbove
+- FixedRiskRewardLoss
+- flawless_lambo
+- ForexSignal
+- FRAYSTRAT
+- FrostAuraM115mStrategy
+- FrostAuraM11hStrategy
+- FrostAuraM21hStrategy
+- FrostAuraM315mStrategy
+- FrostAuraM31hStrategy
+- FrostAuraRandomStrategy
+- GodCard
+- GodStraNew
+- GodStraNew40
+- GodStraNew_SMAonly
+- Guacamole
+- Gumbo1
+- Hacklemore2
+- Hacklemore3
+- hansencandlepatternV1
+- HansenSmaOffsetV1
+- HarmonicDivergence
+- heikin
+- Heracles
+- hlhb
+- HourBasedStrategy
+- HyperStra_GSN_SMAOnly
+- HyperStra_SMAOnly
+- Ichess
+- Ichi
+- Ichimoku
+- Ichimoku_SenkouSpanCross
+- Ichimoku_v12
+- Ichimoku_v30
+- Ichimoku_v31
+- Ichimoku_v32
+- Ichimoku_v33
+- Ichimoku_v37
+- ichiV1
+- ichiV1_Marius
+- InformativeSample
+- INSIDEUP
+- Inverse
+- InverseV2
+- JustROCR
+- JustROCR3
+- JustROCR5
+- JustROCR6
+- KAMACCIRSI
+- Kamaflage
+- KC_BB
+- keltnerchannel
+- Leveraged
+- LookaheadStrategy
+- Low_BB
+- LuxOSC
+- mabStra
+- MAC
+- Macd
+- MACDCCI
+- MACD_EMA
+- macd_recovery
+- MACDRSI200
+- MACDStrategy
+- MACDStrategy_crossed
+- MACD_TRI_EMA
+- MACD_TRIPLE_MA
+- MacheteV8b
+- MacheteV8bRallimod2
+- MADisplaceV3
+- MarketChyperHyperStrategy
+- mark_strat
+- mark_strat_opt
+- Maro4hMacdSd
+- Martin
+- MFI
+- MiniLambo
+- Minmax
+- Momentumv2
+- MomStrategy
+- MontrealStrategy
+- MostOfAll
+- MultiMa
+- MultiMA_TSL
+- MultiMA_TSL3
+- MultiMA_TSL3_Mod
+- MultiOffsetLamboV0
+- MultiRSI
+- NASOSRv6_private_Reinuvader_20211121
+- NASOSv4
+- NASOSv5
+- NASOSv5_mod1
+- NASOSv5_mod1_DanMod
+- NASOSv5_mod2
+- NASOSv5_mod3
+- NFI46
+- NFI46Frog
+- NFI46FrogZ
+- NFI46Offset
+- NFI46OffsetHOA1
+- NFI46Z
+- NFI47V2
+- NFI4Frog
+- NFI5MOHO
+- NFI5MOHO2
+- NFI5MOHO_WIP
+- NFI5MOHO_WIP_1
+- NFI5MOHO_WIP_2
+- NFI731_BUSD
+- NFI7MOHO
+- NfiNextModded
+- NFINextMOHO
+- NFINextMOHO2
+- NFINextMultiOffsetAndHO
+- NFINextMultiOffsetAndHO2NFIX_BB_RPB
+- NFIX_BB_RPB_c7c477d_20211030
+- NormalizerStrategy
+- NormalizerStrategyHO2
+- Nostalgia
+- NostalgiaForInfinityNext
+- NostalgiaForInfinityNext_ChangeToTower_V5_2
+- NostalgiaForInfinityNext_ChangeToTower_V5_3
+- NostalgiaForInfinityNext_ChangeToTower_V6
+- NostalgiaForInfinityNextGen
+- NostalgiaForInfinityNextGen_TSL
+- NostalgiaForInfinityNext_maximizer
+- NostalgiaForInfinityNextV7155
+- NostalgiaForInfinityV1
+- NostalgiaForInfinityV2
+- NostalgiaForInfinityV3
+- NostalgiaForInfinityV4
+- NostalgiaForInfinityV4HO
+- NostalgiaForInfinityV5
+- NostalgiaForInfinityV5MultiOffsetAndHO
+- NostalgiaForInfinityV5MultiOffsetAndHO2
+- NostalgiaForInfinityV6
+- NostalgiaForInfinityV6HO
+- NostalgiaForInfinityV7
+- NostalgiaForInfinityV7_7_2
+- NostalgiaForInfinityV7_SMA
+- NostalgiaForInfinityV7_SMAv2
+- NostalgiaForInfinityV7_SMAv2_1
+- NostalgiaForInfinityX
+- NostalgiaForInfinityX2
+- NostalgiaForInfinityXw
+- NotAnotherSMAOffsetStrategy
+- NotAnotherSMAOffsetStrategyHO
+- NotAnotherSMAOffsetStrategyHOv3
+- NotAnotherSMAOffsetStrategyLite
+- NotAnotherSMAOffsetStrategyModHO
+- NotAnotherSMAOffsetStrategyModHO_LamineDz_20210901
+- NotAnotherSMAOffsetStrategy_uzi
+- NotAnotherSMAOffsetStrategy_uzi3
+- NotAnotherSMAOffSetStrategy_V2
+- NotAnotherSMAOffsetStrategyX1-
+- NowoIchimoku1hV1
+- NowoIchimoku1hV2
+- NowoIchimoku5mV2
+- Obelisk_3EMA_StochRSI_ATR
+. Obelisk_Ichimoku_Slow_v1_3
+- Obelisk_Ichimoku_ZEMA_v1
+- ObeliskIM_v1_1
+- ObeliskRSI_v6_1
+- Obelisk_TradePro_Ichi_v1_1
+- Obelisk_TradePro_Ichi_v2_1
+- ONUR
+- Persia
+- PrawnstarOBV
+- PRICEFOLLOWING
+- PRICEFOLLOWING2
+- PRICEFOLLOWINGX
+- PumpDetector
+- quantumfirst
+- Quickie
+- RalliV1
+- RalliV1_disable56
+- RaposaDivergenceV1
+- redditMA
+- ReinforcedAverageStrategy
+- ReinforcedQuickie
+- ReinforcedSmoothScalp
+- Renko
+- RobotradingBody
+- Roth01
+- Roth03
+- RSI
+- RSIBB02
+- RSIv2
+- SampleStrategy
+- sample_strategy.py
+- SampleStrategyV2
+- SAR
+- Saturn5
+- Scalp
+- Schism
+- Schism2
+- Schism2MM
+- Schism3
+- Schism4
+- Schism5
+- Schism6
+- Seb
+- Simple
+- Slowbro
+- SlowPotato
+- SMA_BBRSI
+- SMAIP3
+- SMAIP3v2
+- SMAOffset
+- SMAOffsetProtectOpt
+- SMAOffsetProtectOptV0
+- SMAOffsetProtectOptV1
+- SMAOffsetProtectOptV1HO1
+- SMAOffsetProtectOptV1_kkeue_20210619
+- SMAOffsetProtectOptV1Mod
+- SMAOffsetProtectOptV1Mod2
+- SMAOffsetV2
+- SMAOG
+- SMAOPv1_TTF
+- SmaRsiStrategy.py
+- SmoothOperator
+- SmoothScalp
+- SolanaStrategy.py
+- SRsi
+- Stavix2
+- Stinkfist
+- StochRSITEMA
+- stoploss
+- Strategy001
+- Strategy001_custom_sell
+- Strategy002
+- Strategy003
+- Strategy004
+- Strategy005
+- STRATEGY_RSI_BB_BOUNDS_CROSS
+- STRATEGY_RSI_BB_CROSS
+- StrategyScalpingFast
+- StrategyScalpingFast2
+- stratfib
+- strato
+- SuperHV27
+- SuperTrend
+- SuperTrendPure
+- SupertrendStrategy
+- SwingHigh
+- SwingHighToSky
+- TDSequentialStrategy
+- TechnicalExampleStrategy
+- TEMA
+- TemaMaster
+- TemaMaster3
+- TemaPure
+- TemaPureNeat
+- TemaPureTwo
+- TenderEnter
+- test-strategy
+- TheForce
+- TheRealPullbackV2
+- TrailingBuyStrat2
+- Trend_Strength_Directional
+- TrixStrategy
+- TrixV15Strategy
+- TrixV21Strategy
+- TrixV23Strategy
+- true_lambo
+- UltimateMomentumIndicator
+- Uptrend
+- UziChan
+- UziChan2
+- VWAP
+- WaveTrendStra
+- wtc
+- XebTradeStrat
+- XtraThicc
+- YOLO
