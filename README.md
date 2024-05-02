@@ -26,10 +26,10 @@ ___
 ___
 
 
-## Stragien GETESTET und Verfügbare:
+## Stragien GETESTET und VERFÜGBAR:
 
 
-** WILL COME SOON **
+** WILL COMING SOON **
 
 
   
@@ -37,7 +37,10 @@ ___
 ___
 
 
-## Verfügbare Stragien UNGETESTET:
+## Stragien UNGETESTET:
+
+** TEST IN PROCESS **
+
 - ActionZone
 - adaptive
 - ADX_15M_USDT
@@ -45,6 +48,11 @@ ___
 - adxbbrsi2
 - ADXMomentum
 - adx_opt_strat
+
+
+ ** FUTURE TESTING STRATEGIES: **
+
+
 - AdxSmas
 - AlligatorStrat
 - AlligatorStrategy
