@@ -7,6 +7,13 @@ ___
 ___
 ___
 
+## Aktuell Status:
+
+- Test different Strategies 
+- Test different exchanges
+
+___
+___
 
 ## Stragien GETESTET:
 
